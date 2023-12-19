@@ -13,7 +13,7 @@ require('dotenv').config()
 const port = process.env.PORT ;
 
 DBconnect()
-app.use(cors({origin:'http://localhost:3000',credentials:true}))
+app.use(cors({origin:'https://library-of-books.onrender.com'}))
 
 app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: true })); //importation mta3 data apartir formulaire
