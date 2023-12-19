@@ -2,7 +2,7 @@ const express = require('express');
 const DBconnect = require('./config/connectDB');
 const BookRouter = require('./routes/bookRoute');
 const UserRoute = require('./routes/userRoute');
-const OrderRoute = require('../backend/routes/orderRoute')
+const OrderRoute = require('./routes/orderRoute')
 var bodyParser = require('body-parser');
 
 const cors = require('cors')
